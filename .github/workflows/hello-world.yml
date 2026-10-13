@@ -1,0 +1,10 @@
+name: First Workflow
+
+on: [push]
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print a Greeting
+      run: echo "Hello, Deshan! This Action is working."
